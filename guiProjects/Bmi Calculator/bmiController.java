@@ -38,7 +38,7 @@ public class bmiController {
 		double iBmi = iWeight / (iHeight *iHeight);
 		
 		
-	String Cal_Bmi = String.format("%.1f" , iBmi); // iBmi to 1 decimal place
+	String CalCu_Bmi = String.format("%.1f" , iBmi); // iBmi to 1 decimal place
 	bmiOutp.setText("Your Body Mass is " + Cal_Bmi+ "kg/m2");
 	
 	if(iBmi<=24.9) {
